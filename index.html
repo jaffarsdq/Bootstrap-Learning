@@ -37,19 +37,19 @@
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">contact</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Help
+              <a class="nav-link  dropdown-toggle" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Register
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="register.html">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">contact</a>
             </li>
           </ul>
           <!-- <form class="d-flex">
@@ -84,32 +84,86 @@
 
 
           <!-- btn group -->
-          <div class="btn-group btn-group-sm">
+          <!-- <div class="btn-group btn-group-sm">
             <button class="btn btn-primary">HTML5</button>
             <button class="btn btn-primary">CSS3</button>
             <button class="btn btn-primary">JavaScript</button>
           </div>
-          <hr>
+          <hr> -->
           <!-- card -->
          
           </div>
            
+          
+        </div>
+      </div>   
+      
+      <!-- collapse -->
+      <div class="container">
+        <h4>Download Links based on your region</h4>
+        <p>Choose the download links based on your region</p>
+        <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Server 1
+          </a>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Server 2
+          </button>
+        
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            https://google.com
+  
+  
+          </div>
+
+        </div>
       </div>
-    </div>   
-    <div class="container">
-      <div class="card" style="width: 250px;">
-        <!-- <div class="card-header bg-primary">
-         <h1 class="text-white"> Hi!</h1>
-        </div> -->
-        <img src="data:image/png;base64,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"alt="bootstrap img" class="card-img-top">
-        <div class="card-body">
-         <h5 class="card-title">learn Bootstrap</h5>
-         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia exercitationem quisquam laudantium quae!</p>
-        </div> 
-        <a href="#" class="btn btn-primary ">Enroll Now</a>
-        <div class="card-footer">
-         <small class="text-muted"> Copyrights by Jaffar</small>
-        </div>           
+      <br>
+      <div class="container p-3">
+        <h4>Frequently Asked Questions</h4>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Question #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Question #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Question  #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
 
 
 

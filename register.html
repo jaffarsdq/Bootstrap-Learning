@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <script src="https://kit.fontawesome.com/ff22103681.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body class="bg-light">
+
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary ">
+            <div class="container-lg" >
+              
+              <a class="navbar-brand align-self-start " href="#"><img style="width: 25px  " src="https://avatars.githubusercontent.com/u/2918581?s=200&v=4" class="mb-1" alt="Bootsrap img"> Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="contact.html">contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="register.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Register
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="register.html">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="Search">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+     </header>
+          <!-- end-header -->
+      
+          <!-- content -->
+ 
+  <div class="container- my-5 p-2 ">
+    <div class="card p-3 ">
+      <form action="/" method="post">
+        <div class="form-group">
+        
+          <div class="row ">
+            <div class="col d-grid gap-2 col-12 mx-auto ">
+              <label for="name">Full name</label>
+                <input type="text" class="form-control " id="name" name="name" placeholder="Enter your full name" required/>
+  
+            </div>
+            
+            <div class="col-12 col-md-6 gap-2">
+              <label for="phone">Mob.no</label>
+              <input type="number" class="form-control" name="phone" id="phone" placeholder="5616568458"required/> 
+              <small class="text-muted">
+                We don't share your number!
+                
+              </small> 
+  
+            </div>
+           
+            <div class="col-12 col-md-6 ">
+              <label for="email">email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com"required/>
+                <small class="text-muted">
+                  We don't share your email!
+                  
+                </small> 
+              
+            </div>
+            <br>
+            <div class="col-12 col-md-6">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" name="password" id="password" placeholder="password" required/> 
+              
+  
+            </div>
+           
+            <div class="col-12 col-md-6 ">
+              <label for="confirm password">confirm password</label>
+                <input type="confirm password" class="form-control" name="confirm password" id="confirm password" placeholder="confirm password"required/>
+            </div>
+            <div class="col-12 form-check mt-2       mx-auto"style="width: 300px;">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+              <label class="form-check-label" for="flexCheckDefault" >
+                I agree to terms and conditions
+              </label>
+            </div>  
+            
+              <div class="form-row text-center p-2">
+  
+            
+                <button type="reset" class="btn btn-sm btn-secondary " >reset</button>
+                <button type="submit" class="btn btn-sm btn-success" ><i class="fa-solid fa-arrow-up-right-from-square"></i> Register</button>
+              </div>
+           
+          </div>  
+            
+           
+  
+        </div>
+
+      </form>
+     
+
+    </div>
+  </div>
+
+          
+  
+    
+
+ 
+     
+                
+              
+    
+ 
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
