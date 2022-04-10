@@ -43,3 +43,12 @@ body{
     background-image: linear-gradient(to bottom right, red, blue);
     opacity:0.5 ;
 }
+.pic{
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/1kSlS6H6YMm30e0Mkr86Hc/930fef722ebc9fb51f80d8bb0e372596/IHP_3_24.png?fit=fill&w=400&h=400);
+    min-height: 500px;
+    background-repeat: no-repeat;
+     background-size: cover;
+
+}
